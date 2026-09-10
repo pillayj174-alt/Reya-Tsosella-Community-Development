@@ -9,6 +9,9 @@ A professional, responsive starter website for the Reya Tsosella Community Devel
 - Email: chrisseoe@gmail.com
 - Facebook: https://www.facebook.com/profile.php?id=61590500654684
 
+## Included media
+The supplied organisation images have been added and optimised in `assets/`. The first image is used as the hero/background and a dedicated logo crop; the remaining images are presented in the community/about sections with controlled sizing and no overlap.
+
 ## Run locally
 Open `index.html` in a browser. No build process is required.
 
