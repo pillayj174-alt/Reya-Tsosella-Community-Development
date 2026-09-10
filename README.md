@@ -48,3 +48,12 @@ The front end is intentionally static and easy to expand. A later version can co
 - Partner management
 
 Do not publish unverified organisational claims.
+
+## Added in V3
+- Donation/support section with a safe verification-first payment information placeholder.
+- E-recruitment area for job-seeker registration and vacancy submission.
+- Mobile-responsive recruitment forms.
+- Demo form handling with launch-ready backend connection points.
+
+## Donation safety
+Do not publish or rely on banking details from social-media graphics without confirming them directly with authorised representatives of the organisation. Replace the donation placeholders only after verification.

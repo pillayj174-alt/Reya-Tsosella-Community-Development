@@ -9,3 +9,7 @@ search.addEventListener('input',filterJobs);filter.addEventListener('change',fil
 
 function showNotice(message){const n=document.getElementById('notice');n.textContent=message;n.classList.add('show');setTimeout(()=>n.classList.remove('show'),4200)}
 document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();showNotice('Thank you. This demo form is ready to be connected to the organisation’s email or backend.');e.target.reset()});
+
+function wireDemoForm(id, message){const form=document.getElementById(id);if(form)form.addEventListener('submit',e=>{e.preventDefault();showNotice(message);form.reset()})}
+wireDemoForm('candidateForm','Candidate registration captured in demo mode. Connect this form to a secure backend before launch.');
+wireDemoForm('vacancyForm','Vacancy submitted in demo mode. Connect this form to a secure review workflow before launch.');
